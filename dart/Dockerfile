@@ -1,4 +1,4 @@
-FROM dart:3.2
+FROM dart:3.6
 RUN dart pub global activate protoc_plugin
 RUN set -eux; \
     apt-get update; \
